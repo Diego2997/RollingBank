@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+.logo {
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.fuente {
+    font-size: 38px;
+}
+
+.bg-footer {
+    background-color: #212529;
+}
+
+.img-carrusel {
+    height: 450px;
+    object-fit: cover;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+@media all and (max-width:767px) {
+    .img-carrusel {
+        height: 250px;
+    }
+}
